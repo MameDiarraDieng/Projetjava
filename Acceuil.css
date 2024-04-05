@@ -1,1 +1,25 @@
+body{
+    background-color: rgb(143, 229, 229);
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Align items horizontally */
 
+}
+input{
+    padding: 10px;
+    margin: 15px;
+}
+h1{
+    color: aqua;
+    font-weight:bold;
+}
