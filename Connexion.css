@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(143, 229, 229);
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Align items horizontally */
+
+}
+input{
+    padding: 10px;
+    margin: 15px;
+}
+h1{
+    color: aqua;
+    font-weight:bold;
+}
+.message{
+    color:rgb(94, 0, 0);
+}
+a {
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    color: rgba(0, 0, 0, 0.493); /* Couleur du texte des liens */
+}

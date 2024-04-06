@@ -1,0 +1,33 @@
+body {
+    background-color:rgb(143, 229, 229);
+}
+
+#inscon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    display: flex; /* Use flexbox layout */
+    flex-direction:column; /* Arrange items vertically */
+    align-items: center; /* Align items horizontally */
+}
+
+a {
+    margin: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color: rgb(143, 229, 229);
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    color: rgba(0, 0, 0, 0.493); /* Couleur du texte des liens */
+}
+
+a:hover {
+    color: rgb(0, 0, 0); /* Couleur du texte des liens au survol */
+    background-color: rgb(143, 229, 229);
+}
